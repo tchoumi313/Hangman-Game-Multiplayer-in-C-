@@ -6,12 +6,12 @@
 #include <ctime>
 #include <algorithm>
 #include <sstream>
-
-bool run;
 /**
 *@author : Donald T
 *@brief A simple hangman game
 */
+
+bool run;
 
 
 int countLines(std::vector<std::string> words) {
